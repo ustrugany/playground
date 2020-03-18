@@ -1,0 +1,26 @@
+version: "3.7"
+services:
+  app:
+    environment:
+      - APP_POSTGRES_HOST=postgres
+      - APP_POSTGRES_USER=dev
+      - APP_POSTGRES_PASSWORD=dev
+      - APP_POSTGRES_DB=dev
+      - APP_POSTGRES_SSLMODE=disable
+    env_file:
+      - .env
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - '.:/usr/src/app'
+  postgres:
+    image: postgres:12.2
+    environment:
+      POSTGRES_PASSWORD: dev
+      POSTGRES_USER: dev
+      POSTGRES_DB: dev
+    volumes:
+      - './init.sql:/docker-entrypoint-initdb.d/init.sql'
+    ports:
+    - '5432:5432'

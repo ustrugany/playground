@@ -1,0 +1,88 @@
+# github.com/friendsofgo/errors v0.9.2
+## explicit
+github.com/friendsofgo/errors
+# github.com/fsnotify/fsnotify v1.4.9
+## explicit
+github.com/fsnotify/fsnotify
+# github.com/gofrs/uuid v3.2.0+incompatible
+## explicit
+github.com/gofrs/uuid
+# github.com/golang/example v0.0.0-20170904185048-46695d81d1fa
+## explicit
+# github.com/hashicorp/hcl v1.0.0
+github.com/hashicorp/hcl
+github.com/hashicorp/hcl/hcl/ast
+github.com/hashicorp/hcl/hcl/parser
+github.com/hashicorp/hcl/hcl/printer
+github.com/hashicorp/hcl/hcl/scanner
+github.com/hashicorp/hcl/hcl/strconv
+github.com/hashicorp/hcl/hcl/token
+github.com/hashicorp/hcl/json/parser
+github.com/hashicorp/hcl/json/scanner
+github.com/hashicorp/hcl/json/token
+# github.com/kat-co/vala v0.0.0-20170210184112-42e1d8b61f12
+## explicit
+github.com/kat-co/vala
+# github.com/lib/pq v1.3.0
+## explicit
+github.com/lib/pq
+github.com/lib/pq/oid
+github.com/lib/pq/scram
+# github.com/magiconair/properties v1.8.1
+github.com/magiconair/properties
+# github.com/mitchellh/mapstructure v1.1.2
+github.com/mitchellh/mapstructure
+# github.com/pelletier/go-toml v1.6.0
+## explicit
+github.com/pelletier/go-toml
+# github.com/spf13/afero v1.2.2
+## explicit
+github.com/spf13/afero
+github.com/spf13/afero/mem
+# github.com/spf13/cast v1.3.1
+## explicit
+github.com/spf13/cast
+# github.com/spf13/cobra v0.0.6
+## explicit
+# github.com/spf13/jwalterweatherman v1.1.0
+## explicit
+github.com/spf13/jwalterweatherman
+# github.com/spf13/pflag v1.0.5
+## explicit
+github.com/spf13/pflag
+# github.com/spf13/viper v1.6.2
+## explicit
+github.com/spf13/viper
+# github.com/subosito/gotenv v1.2.0
+github.com/subosito/gotenv
+# github.com/volatiletech/inflect v0.0.0-20170731032912-e7201282ae8d
+## explicit
+github.com/volatiletech/inflect
+# github.com/volatiletech/sqlboiler v3.6.1+incompatible
+## explicit
+github.com/volatiletech/sqlboiler/boil
+github.com/volatiletech/sqlboiler/drivers
+github.com/volatiletech/sqlboiler/drivers/sqlboiler-psql/driver
+github.com/volatiletech/sqlboiler/importers
+github.com/volatiletech/sqlboiler/queries
+github.com/volatiletech/sqlboiler/queries/qm
+github.com/volatiletech/sqlboiler/queries/qmhelper
+github.com/volatiletech/sqlboiler/randomize
+github.com/volatiletech/sqlboiler/strmangle
+# golang.org/x/sys v0.0.0-20200317113312-5766fd39f98d
+## explicit
+golang.org/x/sys/unix
+# golang.org/x/text v0.3.2
+## explicit
+golang.org/x/text/transform
+golang.org/x/text/unicode/norm
+# golang.org/x/xerrors v0.0.0-20191204190536-9bdfabe68543
+## explicit
+golang.org/x/xerrors
+golang.org/x/xerrors/internal
+# gopkg.in/ini.v1 v1.55.0
+## explicit
+gopkg.in/ini.v1
+# gopkg.in/yaml.v2 v2.2.8
+## explicit
+gopkg.in/yaml.v2
